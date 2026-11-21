@@ -1,0 +1,14 @@
+{
+  "id": 5,
+  "title": "Mammal Sleep Patterns",
+  "question": "How does recorded sleep differ by feeding category?",
+  "x": "vore",
+  "y": "sleep_total",
+  "mode": "group",
+  "caveat": "Species are not independent random samples; missing feeding labels are excluded.",
+  "action": "Check sample sizes and phylogenetic dependence before scientific inference.",
+  "csv": "https://vincentarelbundock.github.io/Rdatasets/csv/ggplot2/msleep.csv",
+  "doc": "https://vincentarelbundock.github.io/Rdatasets/doc/ggplot2/msleep.html",
+  "metric_label": "mean sleep_total",
+  "method": "Complete-case descriptive comparison of sleep_total by vore; show group counts, mean, minimum and maximum."
+}

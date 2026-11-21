@@ -1,0 +1,13 @@
+column,dtype,missing,missing_pct,distinct
+rownames,int64,0,0.0,83
+name,object,0,0.0,83
+genus,object,0,0.0,77
+vore,object,7,8.433734939759036,4
+order,object,0,0.0,19
+conservation,object,29,34.93975903614458,6
+sleep_total,float64,0,0.0,65
+sleep_rem,float64,22,26.506024096385545,32
+sleep_cycle,float64,51,61.44578313253012,22
+awake,float64,0,0.0,65
+brainwt,float64,27,32.53012048192771,53
+bodywt,float64,0,0.0,82

@@ -1,0 +1,41 @@
+<html><head><meta charset="utf-8"><title>Mammal Sleep Patterns</title><style>body{font:17px system-ui;max-width:1100px;margin:40px auto;padding:20px;color:#182d41}img{max-width:100%}td,th{padding:8px;border-bottom:1px solid #ddd}</style></head><body><h1>Mammal Sleep Patterns</h1><p>How does recorded sleep differ by feeding category?</p><p>The largest observed mean sleep_total is 14.940 for insecti. This ranking is descriptive, not a recommendation.</p><img src="main_chart.png"><h2>SQL evidence</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>segment</th>
+      <th>rows_used</th>
+      <th>metric</th>
+      <th>minimum</th>
+      <th>maximum</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>carni</td>
+      <td>19</td>
+      <td>10.378947</td>
+      <td>2.7</td>
+      <td>19.4</td>
+    </tr>
+    <tr>
+      <td>herbi</td>
+      <td>32</td>
+      <td>9.509375</td>
+      <td>1.9</td>
+      <td>16.6</td>
+    </tr>
+    <tr>
+      <td>insecti</td>
+      <td>5</td>
+      <td>14.940000</td>
+      <td>8.4</td>
+      <td>19.9</td>
+    </tr>
+    <tr>
+      <td>omni</td>
+      <td>20</td>
+      <td>10.925000</td>
+      <td>8.0</td>
+      <td>18.0</td>
+    </tr>
+  </tbody>
+</table><h2>Limitations</h2><p>Species are not independent random samples; missing feeding labels are excluded.</p><h2>Next action</h2><p>Check sample sizes and phylogenetic dependence before scientific inference.</p></body></html>
